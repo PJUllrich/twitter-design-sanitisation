@@ -13,7 +13,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.twitter.com/*"],
-      "css": ["sanitize.css"]
+      "css": ["original.css", "sanitize.css"]
     }
   ]
 }

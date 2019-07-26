@@ -1,3 +1,13 @@
+/* Change the font to Verdana */
+body {
+  font-family: Verdana, Geneva, sans-serif !important;
+}
+
+/* Increases the tweet font a bit */
+.r-1b43r93 {
+  font-size: 16px;
+}
+
 /* Makes the "Trends for you" column less prominent */
 div[data-testid="sidebarColumn"] {
   margin-left: 8rem;
@@ -15,6 +25,20 @@ header[role="banner"] {
 }
 
 /* Removes the special font color from hashtags */
-a[href^="/hashtag"] {
+a[href^="/hashtag"],
+a[dir="ltr"] {
   color: rgb(255, 255, 255) !important;
+}
+
+/* 
+Makes the "Show Top Tweets" "star"-button, 
+"Tweet Poll", etc. button less prominent
+ */
+.r-xfsgu1 {
+  color: rgb(32, 49, 65);
+}
+
+/* Makes the "Tweet" and "Reply" button less prominent */
+.r-1qqlz1x {
+  background-color: none;
 }
